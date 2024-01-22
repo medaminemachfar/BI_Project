@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_V7rUkLcsEe6e0-TlieKSKQ" name="1st_Point_of_Impact_Copy" dataPackage="_DXmEQrb-Ee6cn8dxZj1xfw" Server="Localhost 127.0.0.1" FilePath="C:/Users/Mega-PC/Desktop/Bi_project/Data_Guide.xls" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="1st Point of Impact" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" sheetList="1st Point of Impact:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_DXmEQrb-Ee6cn8dxZj1xfw" name="default" dataManager="_V7rUkLcsEe6e0-TlieKSKQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_DXmEQ7b-Ee6cn8dxZj1xfw" id="_3KspkLb9Ee6cn8dxZj1xfw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DXmERLb-Ee6cn8dxZj1xfw" label="code" length="2" talendType="id_Integer" key="true" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DXmERbb-Ee6cn8dxZj1xfw" label="label" length="28" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

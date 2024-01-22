@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_hXTAMLZkEe67F5uQ6nj36g" name="Accident" dataPackage="_hXTAMbZkEe67F5uQ6nj36g" Server="Localhost 127.0.0.1" FilePath="C:/Users/Mega-PC/Desktop/Bi_project/Accident_Data.csv" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_hXTAMbZkEe67F5uQ6nj36g" name="default" dataManager="_hXTAMLZkEe67F5uQ6nj36g">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_hXTAMrZkEe67F5uQ6nj36g" id="_NYpgcLZkEe67F5uQ6nj36g" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hXTAM7ZkEe67F5uQ6nj36g" label="_accident_index" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hXTANLZkEe67F5uQ6nj36g" label="_vehicle_reference" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hXTANbZkEe67F5uQ6nj36g" label="_vehicle_type" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hXTANrZkEe67F5uQ6nj36g" label="_towing_and_articulation" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hXTAN7ZkEe67F5uQ6nj36g" label="_vehicle_manoeuvre" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hXTAOLZkEe67F5uQ6nj36g" label="_vehicle_location_restricted_lane" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hXTAObZkEe67F5uQ6nj36g" label="_junction_location" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hXTAOrZkEe67F5uQ6nj36g" label="_skidding_and_overturning" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hXTAO7ZkEe67F5uQ6nj36g" label="_hit_object_in_carriageway" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hXTAPLZkEe67F5uQ6nj36g" label="_vehicle_leaving_carriageway" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hXTAPbZkEe67F5uQ6nj36g" label="_hit_object_off_carriageway" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hXTAPrZkEe67F5uQ6nj36g" label="_1st_point_of_impact" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hXTAP7ZkEe67F5uQ6nj36g" label="_was_vehicle_left_hand_drive" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hXTAQLZkEe67F5uQ6nj36g" label="_journey_purpose_of_driver" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hXTAQbZkEe67F5uQ6nj36g" label="_sex_of_driver" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hXTAQrZkEe67F5uQ6nj36g" label="_age_of_driver" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hXTAQ7ZkEe67F5uQ6nj36g" label="_age_band_of_driver" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hXTARLZkEe67F5uQ6nj36g" label="_engine_capacity__cc" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hXTARbZkEe67F5uQ6nj36g" label="_propulsion_code" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hXTARrZkEe67F5uQ6nj36g" label="_age_of_vehicle" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hXTAR7ZkEe67F5uQ6nj36g" label="_driver_imd_decile" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hXTASLZkEe67F5uQ6nj36g" label="_driver_home_area_type" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hXTASbZkEe67F5uQ6nj36g" label="_vehicle_imd_decile" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hXTASrZkEe67F5uQ6nj36g" label="_NUmber_of_Casualities_unique_to_accident_index" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hXTAS7ZkEe67F5uQ6nj36g" label="_No_of_Vehicles_involved_unique_to_accident_index" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hXTATLZkEe67F5uQ6nj36g" label="_location_easting_osgr" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hXTATbZkEe67F5uQ6nj36g" label="_location_northing_osgr" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hXTATrZkEe67F5uQ6nj36g" label="_longitude" length="9" precision="7" talendType="id_Double" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hXTAT7ZkEe67F5uQ6nj36g" label="_latitude" length="9" precision="7" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hXTAULZkEe67F5uQ6nj36g" label="_police_force" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hXTAUbZkEe67F5uQ6nj36g" label="_accident_severity" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hXTAUrZkEe67F5uQ6nj36g" label="_number_of_vehicles" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hXTAU7ZkEe67F5uQ6nj36g" label="_number_of_casualties" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hXTAVLZkEe67F5uQ6nj36g" label="_date" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hXTAVbZkEe67F5uQ6nj36g" label="_day_of_week" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hXTAVrZkEe67F5uQ6nj36g" label="_time" length="19" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hXTAV7ZkEe67F5uQ6nj36g" label="_local_authority__district" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hXTAWLZkEe67F5uQ6nj36g" label="_local_authority__highway" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hXTAWbZkEe67F5uQ6nj36g" label="_1st_road_class" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hXTAWrZkEe67F5uQ6nj36g" label="_1st_road_number" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hXTAW7ZkEe67F5uQ6nj36g" label="_road_type" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hXTAXLZkEe67F5uQ6nj36g" label="_speed_limit" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hXTAXbZkEe67F5uQ6nj36g" label="_junction_detail" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hXTAXrZkEe67F5uQ6nj36g" label="_junction_control" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hXTAX7ZkEe67F5uQ6nj36g" label="_2nd_road_class" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hXTAYLZkEe67F5uQ6nj36g" label="_2nd_road_number" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hXTAYbZkEe67F5uQ6nj36g" label="_pedestrian_crossing_human_control" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hXTAYrZkEe67F5uQ6nj36g" label="_pedestrian_crossing_physical_facilities" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hXTAY7ZkEe67F5uQ6nj36g" label="_light_conditions" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hXTAZLZkEe67F5uQ6nj36g" label="_weather_conditions" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hXTAZbZkEe67F5uQ6nj36g" label="_road_surface_conditions" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hXTAZrZkEe67F5uQ6nj36g" label="_special_conditions_at_site" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hXTAZ7ZkEe67F5uQ6nj36g" label="_carriageway_hazards" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hXTAaLZkEe67F5uQ6nj36g" label="_urban_or_rural_area" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hXTAabZkEe67F5uQ6nj36g" label="_did_police_officer_attend_scene_of_accident" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hXTAarZkEe67F5uQ6nj36g" label="_lsoa_of_accident_location" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hXTAa7ZkEe67F5uQ6nj36g" label="_casualty_reference" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hXTAbLZkEe67F5uQ6nj36g" label="_casualty_class" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hXTAbbZkEe67F5uQ6nj36g" label="_sex_of_casualty" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hXTAbrZkEe67F5uQ6nj36g" label="_age_of_casualty" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hXTAb7ZkEe67F5uQ6nj36g" label="_age_band_of_casualty" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hXTAcLZkEe67F5uQ6nj36g" label="_casualty_severity" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hXTAcbZkEe67F5uQ6nj36g" label="_pedestrian_location" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hXTAcrZkEe67F5uQ6nj36g" label="_pedestrian_movement" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hXTAc7ZkEe67F5uQ6nj36g" label="_car_passenger" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hXTAdLZkEe67F5uQ6nj36g" label="_bus_or_coach_passenger" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hXTAdbZkEe67F5uQ6nj36g" label="_pedestrian_road_maintenance_worker" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hXTAdrZkEe67F5uQ6nj36g" label="_casualty_type" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hXTAd7ZkEe67F5uQ6nj36g" label="_casualty_home_area_type" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hXTAeLZkEe67F5uQ6nj36g" label="_casualty_imd_decile" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

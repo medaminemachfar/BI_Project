@@ -1,0 +1,47 @@
+[ {
+  "baseItem" : {
+    "id" : "_9FisALcsEe6e0-TlieKSKQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_3dO_sLcsEe6e0-TlieKSKQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_xBo1QLcsEe6e0-TlieKSKQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_3dO_sLcsEe6e0-TlieKSKQ - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_xBo1QLcsEe6e0-TlieKSKQ - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_DwovMLcmEe6cn8dxZj1xfw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_DXmEQLb-Ee6cn8dxZj1xfw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_hXSZILZkEe67F5uQ6nj36g",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_DXmEQLb-Ee6cn8dxZj1xfw - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_hXSZILZkEe67F5uQ6nj36g - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+} ]

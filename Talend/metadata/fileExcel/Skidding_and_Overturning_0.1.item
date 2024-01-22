@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_BveFULb9Ee6cn8dxZj1xfw" name="Skidding_and_Overturning" dataPackage="_BveFUbb9Ee6cn8dxZj1xfw" Server="Localhost 127.0.0.1" FilePath="C:/Users/Mega-PC/Desktop/Bi_project/Data_Guide.xls" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="Skidding and Overturning" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" sheetList="Skidding and Overturning:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_BveFUbb9Ee6cn8dxZj1xfw" name="default" dataManager="_BveFULb9Ee6cn8dxZj1xfw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_BveFUrb9Ee6cn8dxZj1xfw" id="_7A6ioLb8Ee6cn8dxZj1xfw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BveFU7b9Ee6cn8dxZj1xfw" label="code" length="2" talendType="id_Integer" key="true" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BveFVLb9Ee6cn8dxZj1xfw" label="label" length="28" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
